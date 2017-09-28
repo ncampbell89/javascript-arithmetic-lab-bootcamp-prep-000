@@ -25,13 +25,11 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  parseInt('n', 10)
+  var a = parseInt('n', 10)
+  var b = parseInt('0x2328')
+  var c = parseInt('sldkjflksjf')
+
+  var n = a + b + c
+
+  return n
 }
-
-makeInt(n)
-
-function preserveDecimal(n) {
-  parseFloat('n', 10)
-}
-
-preserveDecimal(n)
