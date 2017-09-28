@@ -24,14 +24,14 @@ function dec(n) {
   return n
 }
 
-function makeInt() {
-  var x = parseInt('n', 10)
+function makeInt(n) {
+  parseInt('n', 10)
 }
 
-return x
+makeInt(n)
 
-function preserveDecimal() {
-  var x = parseFloat('n', 10)
+function preserveDecimal(n) {
+  parseFloat('n', 10)
 }
 
-return x
+preserveDecimal(n)
