@@ -30,6 +30,5 @@ function makeInt(n) {
   var c = parseInt('sldkjflksjf', 10)
 
   var n = a + b + c
-
-  return n
 }
+  return n
